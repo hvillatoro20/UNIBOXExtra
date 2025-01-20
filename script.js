@@ -60,7 +60,7 @@ affiliateForm.addEventListener("submit", (event) => {
     const password = document.getElementById("affiliate-password").value;
 
     // URL de tu Google Apps Script
-    const scriptURL = "URL_DE_TU_APLICACION_WEB"; // Reemplaza con tu URL
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzDF9YS1JKrCVHTWeSS5cG1r85SShOynbMfb5dwYBmrqrqic-eaIb9SndV9GgwCesDtBg/exec"; // Reemplaza con tu URL
 
     // Crear el cuerpo de la solicitud
     const formData = new URLSearchParams();
